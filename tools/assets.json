@@ -1,0 +1,30 @@
+[
+    {
+        "name": "ImgSkyscraper",
+        "file_name": "res/skyscraper.png"
+    },
+    {
+        "name": "ImgGround",
+        "file_name": "res/ground.png"
+    },
+    {
+        "name": "ImgBird",
+        "file_name": "res/redbird.png"
+    },
+    {
+        "name": "ImgPipe",
+        "file_name": "res/pipe.png"
+    },
+    {
+        "name": "ImgDigits",
+        "file_name": "res/digits.png"
+    },
+    {
+        "name": "ImgPressSpace",
+        "file_name": "res/press_space.png"
+    },
+    {
+        "name": "ImgGameOver",
+        "file_name": "res/gameover.png"
+    }
+]
