@@ -7,7 +7,7 @@ IF EXIST temp\assets.bin.gz DEL /F temp\assets.bin.gz
 tools\gzip\bin\gzip.exe -k temp\assets.bin
 
 rem Generate resources.h file
-python tools\bin2c.py assets.bin.gz temp\resources.h
+python tools\bin2c.py temp\assets.bin.gz temp\resources.h
 move temp\resources.h src\resources.h
 
 rem Build the project
