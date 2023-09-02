@@ -11,6 +11,7 @@ python tools\bin2c.py temp\assets.bin.gz temp\resources.h
 move temp\resources.h src\resources.h
 
 rem Build the project
+IF NOT EXIST build MD build
 set Compiler=cl
 set LinkerFlags=-incremental:no -opt:ref -nodefaultlib -entry:main kernel32.lib -stack:100000,100000
 set CompilerFlags=-nologo -W4 -GS- -Gs99999
