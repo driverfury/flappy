@@ -1,7 +1,7 @@
 # flappy
 ## Description
 
-The goal of this project is to make a flappy bird clone in a single, small, self-contained executable file.
+The goal of this project is to make a flappy bird clone in a single, small, self-contained executable file (it only works on Windows for now).
 
 This is the final result:
 
@@ -9,7 +9,7 @@ This is the final result:
 
 The minimum size of the executable that I got is 32KB. The executable only links to KERNEL32.dll.
 
-One future goal is to port it on WinXP.
+One future goal is to make it runnable on WinXP, it should be easy.
 
 ## How I made it
 
@@ -48,7 +48,7 @@ Same applies for the skyscrapers, it's just a 140x50 image.
 
 ![skyscraper.png](docs/img/skyscraper.png)
 
-I save a ton of KBs.
+I saved a ton of KBs.
 
 Then I created a tool to "build the assets": `tools/build_addets.py`.
 
@@ -126,6 +126,10 @@ u8 CompAssets[] = {
 };
 ```
 
-so you just need to include it in your C source code.
+so you just need to include it in your C source code with:
 
-At the end I got a SINGLE, SELF-CONTAINED executable file of 32KB.
+```
+#include "resources.h"
+```
+
+At the end I got a single, self-contained executable file of 32KB.
