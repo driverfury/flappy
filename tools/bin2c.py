@@ -9,7 +9,7 @@ fout_name = sys.argv[2]
 
 fin = open(fin_name, "rb")
 
-c_string  = "/* This is a generated file */"
+c_string  = "/* This is a generated file */\n"
 c_string += "u8 CompAssets[] = {\n"
 
 counter = 0
