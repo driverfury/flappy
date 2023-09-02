@@ -5,7 +5,7 @@ The goal of this project is to make a flappy bird clone in a single, small, self
 
 This is the final result:
 
-![flappy](docs/img/gameplay.png)
+![flappy](docs/img/gameplay.gif)
 
 The minimum size of the executable that I got is 32KB. The executable only links to KERNEL32.dll.
 
@@ -15,7 +15,7 @@ One future goal is to port it on WinXP.
 
 First, I made the game without grafics:
 
-![flappy without graphics](docs/img/gameplay_nogfx.png)
+![flappy without graphics](docs/img/gameplay_nogfx.gif)
 
 Btw you can compile the game without graphics with the preprocessor flag `GFX=0`.
 
@@ -48,7 +48,7 @@ Same applies for the skyscrapers, it's just a 140x50 image.
 
 ![skyscraper.png](docs/img/skyscraper.png)
 
-I spared a ton of KBs.
+I save a ton of KBs.
 
 Then I created a tool to "build the assets": `tools/build_addets.py`.
 
